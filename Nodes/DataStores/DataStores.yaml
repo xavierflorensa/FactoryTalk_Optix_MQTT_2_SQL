@@ -1,0 +1,122 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase
+  Id: g=d97568526def8fccd346ffeab64433d8
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: Line1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Speed
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: Counter
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: DateTime
+    - Name: Line2
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=7;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=7;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Speed
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: Counter
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: DateTime
+  - Class: Reference
+    Target: ns=15;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=7;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=59
+    Direction: Forward

@@ -1,0 +1,5 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: FakeMQTTLogic
+  Type: NetLogic

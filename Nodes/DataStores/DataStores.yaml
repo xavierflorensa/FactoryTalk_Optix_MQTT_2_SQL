@@ -35,33 +35,6 @@ Children:
         - Name: Timestamp
           Type: StoreColumn
           DataType: DateTime
-    - Name: Line2
-      Type: SQLiteStoreTable
-      Children:
-      - Class: Reference
-        Target: ns=7;i=12
-        Direction: Forward
-      - Class: Reference
-        Target: ns=7;i=15
-        Direction: Forward
-      - Class: Reference
-        Target: ns=7;i=21
-        Direction: Forward
-      - Class: Reference
-        Target: ns=7;i=20
-        Direction: Forward
-      - Name: Columns
-        Type: BaseObjectType
-        Children:
-        - Name: Speed
-          Type: StoreColumn
-          DataType: UInt32
-        - Name: Counter
-          Type: StoreColumn
-          DataType: UInt32
-        - Name: Timestamp
-          Type: StoreColumn
-          DataType: DateTime
   - Class: Reference
     Target: ns=15;i=30
     Direction: Forward
